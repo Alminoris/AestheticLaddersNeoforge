@@ -12,7 +12,7 @@ public class ModJsonHelper
     {
         String projectPath = System.getProperty("user.dir");
 
-        String filePath = projectPath.replace("run-data", "src\\main\\resources") + "/assets/"+ AestheticLadders.MOD_ID+"/models/block/";
+        String filePath = projectPath.replace("run", "src\\main\\resources") + "/assets/"+ AestheticLadders.MOD_ID+"/models/block/";
 
         File directory = new File(filePath);
         if (!directory.exists())
@@ -37,7 +37,7 @@ public class ModJsonHelper
     {
         String projectPath = System.getProperty("user.dir");
 
-        String filePath = projectPath.replace("run-data", "src\\main\\resources") + "/data/"+ AestheticLadders.MOD_ID+"/recipe/";
+        String filePath = projectPath.replace("run", "src\\main\\resources") + "/data/"+ AestheticLadders.MOD_ID+"/recipe/";
 
         File directory = new File(filePath);
         if (!directory.exists())
@@ -63,7 +63,7 @@ public class ModJsonHelper
     {
         String projectPath = System.getProperty("user.dir");
 
-        String filePath = projectPath.replace("run-data", "src\\main\\resources") + "/assets/"+ AestheticLadders.MOD_ID+"/models/block/";
+        String filePath = projectPath.replace("run", "src\\main\\resources") + "/assets/"+ AestheticLadders.MOD_ID+"/models/block/";
 
         File directory = new File(filePath);
         if (!directory.exists())
@@ -88,7 +88,7 @@ public class ModJsonHelper
     {
         String projectPath = System.getProperty("user.dir");
 
-        String filePath = projectPath.replace("run-data", "src\\main\\resources") + "/assets/"+ AestheticLadders.MOD_ID+"/blockstates/";
+        String filePath = projectPath.replace("run", "src\\main\\resources") + "/assets/"+ AestheticLadders.MOD_ID+"/blockstates/";
 
         File directory = new File(filePath);
         if (!directory.exists())
